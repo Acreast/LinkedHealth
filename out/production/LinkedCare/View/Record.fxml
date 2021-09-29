@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="574.0" prefWidth="872.0" style="-fx-background-color: #F0F1F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="45.0" layoutY="57.0" prefHeight="460.0" prefWidth="782.0" stylesheets="@record.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Record Information">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="267.0" prefWidth="516.0" styleClass="AnchorDetails">
+                     <children>
+                        <Label layoutX="61.0" layoutY="40.0" text="Created by:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="71.0" layoutY="80.0" text="Doctor ID:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="120.0" text="Digital Signature:">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="225.0" text="Owned By:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="83.0" layoutY="266.0" text="Patient ID:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="547.0" layoutY="30.0" text="Date of creation:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="66.0" layoutY="305.0" text="Contact Info:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblDate" layoutX="655.0" layoutY="31.0" text="01/01/2020">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtCreatedBy" editable="false" layoutX="172.0" layoutY="39.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtDoctorID" editable="false" layoutX="172.0" layoutY="79.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtDigitalSignature" editable="false" layoutX="172.0" layoutY="119.0" prefHeight="30.0" prefWidth="483.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtOwner" editable="false" layoutX="172.0" layoutY="222.0" stylesheets="@customTransparency.css" />
+                        <TextField fx:id="txtPatientID" editable="false" layoutX="172.0" layoutY="263.0" />
+                        <TextField fx:id="txtPhone" editable="false" layoutX="172.0" layoutY="302.0" stylesheets="@customTransparency.css" />
+                        <TextField fx:id="txtEmail" editable="false" layoutX="172.0" layoutY="340.0" stylesheets="@customTransparency.css" />
+                        <Button fx:id="btnVerify" layoutX="172.0" layoutY="162.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Verify Signature" textFill="WHITE" visible="false">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Vitals/Physical Information">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="650.0" styleClass="AnchorDetails">
+                     <children>
+                        <Label layoutX="67.0" layoutY="49.0" text="Date of birth">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="lstAllergies" fixedCellSize="0.0" layoutX="252.0" layoutY="138.0" prefHeight="165.0" prefWidth="226.0" style="-fx-border-color: #707070;" />
+                        <Label layoutX="264.0" layoutY="103.0" text="Allergies">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="252.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <ListView fx:id="lstOtherRemarks" fixedCellSize="0.0" layoutX="515.0" layoutY="139.0" prefHeight="165.0" prefWidth="226.0" style="-fx-border-color: #707070;" />
+                        <Label layoutX="530.0" layoutY="102.0" text="Other remarks">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="518.0" layoutY="99.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TextField fx:id="txtDOB" editable="false" layoutX="67.0" layoutY="75.0" stylesheets="@customTransparency.css" />
+                        <Label layoutX="67.0" layoutY="104.0" text="Gender">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtGender" editable="false" layoutX="67.0" layoutY="124.0" stylesheets="@customTransparency.css" />
+                        <Label layoutX="67.0" layoutY="160.0" text="Height/Weight">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtHeightWeight" editable="false" layoutX="67.0" layoutY="180.0" stylesheets="@customTransparency.css" />
+                        <Label layoutX="67.0" layoutY="272.0" text="Temperature">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtTemperature" layoutX="67.0" layoutY="292.0" />
+                        <Label layoutX="67.0" layoutY="331.0" text="Blood pressure">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtBloodPressure" layoutX="67.0" layoutY="351.0" />
+                        <Label layoutX="67.0" layoutY="216.0" text="Blood type">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtBloodType" editable="false" layoutX="67.0" layoutY="236.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Examination">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="AnchorDetails">
+                     <children>
+                        <Label layoutX="80.0" layoutY="24.0" text="Reason of visit">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="68.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TextArea fx:id="txtVisit" layoutX="66.0" layoutY="55.0" prefHeight="118.0" prefWidth="650.0" stylesheets="@customTransparency.css">
+                           <font>
+                              <Font size="14.0" />
+                           </font></TextArea>
+                        <Label layoutX="79.0" layoutY="194.0" text="Examination">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="67.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TextArea fx:id="txtExamination" layoutX="66.0" layoutY="226.0" prefHeight="161.0" prefWidth="650.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></TextArea>
+                        <Button fx:id="btnExaminationDialog" layoutX="81.0" layoutY="193.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: transparent;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Assessment">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="AnchorDetails">
+                     <children>
+                        <Label layoutX="80.0" layoutY="24.0" text="Diagnosis">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="68.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TextArea fx:id="txtDiagnosis" layoutX="66.0" layoutY="54.0" prefHeight="145.0" prefWidth="650.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></TextArea>
+                        <Label layoutX="79.0" layoutY="219.0" text="Medication">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="67.0" layoutY="215.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TableView fx:id="tblMedication" layoutX="66.0" layoutY="251.0" prefHeight="141.0" prefWidth="650.0">
+                           <columns>
+                              <TableColumn fx:id="colMedicineName" prefWidth="174.39999389648438" text="Medicine Name" />
+                              <TableColumn fx:id="colDose" prefWidth="116.79998779296875" text="Dose" />
+                              <TableColumn fx:id="colUntil" prefWidth="126.40005493164062" text="Take Until" />
+                              <TableColumn fx:id="colExtraNotes" prefWidth="231.99997558593748" text="Extra Notes" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="btnDiagnosisDialog" layoutX="74.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: transparent;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="btnMedicationDialog" layoutX="79.0" layoutY="217.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: transparent;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Additional Information">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="AnchorDetails">
+                     <children>
+                        <Label layoutX="80.0" layoutY="24.0" text="Additional Notes">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="68.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TextArea fx:id="txtNotes" layoutX="65.0" layoutY="54.0" prefHeight="141.0" prefWidth="650.0" stylesheets="@customTransparency.css">
+                           <font>
+                              <Font size="14.0" />
+                           </font></TextArea>
+                        <Label layoutX="78.0" layoutY="213.0" text="Attachments:">
+                           <font>
+                              <Font name="Segoe UI" size="18.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="66.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+                        <TableView fx:id="tblAttachments" layoutX="65.0" layoutY="244.0" prefHeight="141.0" prefWidth="650.0">
+                          <columns>
+                            <TableColumn fx:id="colAttachmentName" prefWidth="226.40008544921875" text="Attachment Name" />
+                            <TableColumn fx:id="colSize" prefWidth="70.39996337890625" text="Size" />
+                              <TableColumn fx:id="colNotes" minWidth="0.0" prefWidth="356.00006103515625" text="Extra notes" />
+                              <TableColumn fx:id="colFilePath" minWidth="0.0" prefWidth="0.0" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="btnAttachmentDialog" layoutX="80.0" layoutY="211.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="103.0" style="-fx-background-color: transparent;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="btnDownload" layoutX="625.0" layoutY="393.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Download file" textFill="WHITE" visible="false" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="btnBack" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="&lt;&lt;Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnAddRecord" layoutX="764.0" layoutY="530.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Add record" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="449.0" prefWidth="777.0" style="-fx-background-color: #F0F1F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="66.0" layoutY="47.0" prefHeight="354.0" prefWidth="678.0" style="-fx-background-color: white; -fx-border-color: #707070;">
+         <children>
+            <TableView fx:id="tblRecords" layoutX="43.0" layoutY="68.0" prefHeight="218.0" prefWidth="591.0" tableMenuButtonVisible="true">
+              <columns>
+                <TableColumn editable="false" prefWidth="110.4000244140625" text="Date" />
+                <TableColumn editable="false" prefWidth="163.99998474121094" text="Patient Name" />
+                  <TableColumn prefWidth="116.79998779296875" text="DOB" />
+                  <TableColumn prefWidth="184.0" text="Diagnosis" />
+              </columns>
+            </TableView>
+            <Label layoutX="56.0" layoutY="37.0" text="Added Records By You">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="44.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <TextField fx:id="txtSearch" layoutX="484.0" layoutY="36.0" promptText="Enter to search" />
+            <Button fx:id="btnConfigure" alignment="CENTER" layoutX="201.0" layoutY="302.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: BLACK;" text="Add new " textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true" />
+            <TextField fx:id="txtSearch1" layoutX="44.0" layoutY="305.0" promptText="Enter to search" text="Enter Patient ID" visible="false" />
+            <Button fx:id="btnConfigure1" alignment="CENTER" layoutX="323.0" layoutY="302.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: BLACK;" text="Cancel request" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true" />
+            <Button fx:id="btnConfigure11" alignment="CENTER" layoutX="434.0" layoutY="302.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="116.0" style="-fx-background-color: BLACK;" text="Manage records" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true" />
+            <Button fx:id="btnConfigure111" alignment="CENTER" layoutX="550.0" layoutY="296.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: BLACK;" text="View Record" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="5.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="&lt;&lt;Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="684.0" prefWidth="650.0" style="-fx-background-color: #F0F1F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="32.0" layoutY="82.0" prefHeight="116.0" prefWidth="586.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #707070;">
+         <children>
+            <Label fx:id="lblPatientID" layoutX="128.0" layoutY="31.0" text="patient ID" />
+            <Label layoutX="42.0" layoutY="65.0" text="Your Data Transparency Level:" />
+            <Button fx:id="btnManageTransparency" layoutX="433.0" layoutY="45.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #939598;" text="Manage transparency">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnChangePassword" layoutX="434.0" layoutY="80.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: transparent; -fx-border-color: #939598;" text="Change Password">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label fx:id="lblTransparencyLevel" layoutX="209.0" layoutY="65.0" text="Medium">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="31.0" text="Your Patient ID:" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="46.0" layoutY="48.0" text="Account Information">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="34.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <AnchorPane layoutX="26.0" layoutY="249.0" prefHeight="410.0" prefWidth="291.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #707070;">
+         <children>
+            <TextField fx:id="txtName" editable="false" layoutX="48.0" layoutY="40.0" prefHeight="26.0" prefWidth="190.0" />
+            <TextField fx:id="txtDOB" editable="false" layoutX="48.0" layoutY="90.0" prefHeight="26.0" prefWidth="190.0" />
+            <TextField fx:id="txtGender" editable="false" layoutX="49.0" layoutY="140.0" prefHeight="26.0" prefWidth="190.0" />
+            <TextField fx:id="txtMartialStatus" editable="false" layoutX="48.0" layoutY="190.0" prefHeight="26.0" prefWidth="190.0" />
+            <TextField fx:id="txtContact" editable="false" layoutX="48.0" layoutY="240.0" prefHeight="26.0" prefWidth="190.0" />
+            <TextField fx:id="txtEmail" editable="false" layoutX="48.0" layoutY="290.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="48.0" layoutY="22.0" text="Name" />
+            <Label layoutX="48.0" layoutY="72.0" text="Date of birth" />
+            <Label layoutX="48.0" layoutY="123.0" text="Gender" />
+            <Label layoutX="48.0" layoutY="173.0" text="Martial status" />
+            <Label layoutX="48.0" layoutY="222.0" text="Contact Number" />
+            <Label layoutX="48.0" layoutY="272.0" text="Email" />
+            <TextField fx:id="txtAddress" editable="false" layoutX="49.0" layoutY="340.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="48.0" layoutY="321.0" text="Address" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="38.0" layoutY="212.0" text="Personal Information">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="26.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <AnchorPane layoutX="332.0" layoutY="249.0" prefHeight="311.0" prefWidth="291.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #707070;">
+         <children>
+            <TextField fx:id="txtBloodType" editable="false" layoutX="50.0" layoutY="48.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="50.0" layoutY="30.0" text="Blood Type" />
+            <TextField fx:id="txtMainInsurance" editable="false" layoutX="50.0" layoutY="224.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="51.0" layoutY="206.0" text="Main Insurance" />
+            <TextField fx:id="txtHeight" editable="false" layoutX="50.0" layoutY="165.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="50.0" layoutY="146.0" text="Height" />
+            <TextField fx:id="txtWeight" editable="false" layoutX="50.0" layoutY="106.0" prefHeight="26.0" prefWidth="190.0" />
+            <Label layoutX="50.0" layoutY="88.0" text="Weight" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="344.0" layoutY="215.0" text="Medical Information">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="332.0" layoutY="212.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <Button fx:id="btnBack" layoutX="10.0" layoutY="9.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="&lt;&lt;Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="498.0" layoutY="633.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Update information" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

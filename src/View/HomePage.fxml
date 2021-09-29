@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0F1F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblGreet" alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="168.0" prefHeight="66.0" prefWidth="196.0" style="-fx-background-color: white; -fx-border-color: #707070;" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="400.0" prefWidth="206.0" style="-fx-background-color: white; -fx-border-color: #707070; -fx-border-style: hidden hidden solid solid;">
+         <children>
+            <ImageView fitHeight="87.0" fitWidth="208.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/logoadobe.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnViewProfile" layoutY="89.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="208.0" style="-fx-background-color: #939598; -fx-background-radius: 0; -fx-border-style: hidden solid solid solid; -fx-border-color: #707070;" styleClass="sideButton" text="View Profile" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/user%20(3).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnViewRecord" layoutY="193.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="208.0" style="-fx-background-color: #939598; -fx-background-radius: 0; -fx-border-color: #707070;" styleClass="sideButton" text="View Records" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/edit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnManageConnection" layoutY="297.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="208.0" style="-fx-background-color: #939598; -fx-background-radius: 0; -fx-border-color: #707070;" styleClass="sideButton" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Blend />
+               </effect>
+               <graphic>
+                  <ImageView fx:id="imgViewBtnIcon" fitHeight="50.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/connection.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets right="-2.0" />
+         </padding>
+      </AnchorPane>
+      <Button fx:id="btnLogOut" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.hiddenText{
+    -fx-font-style: Italic;
+}
+
+.hiddenTextArea{
+    -fx-font-size: 14;
+    -fx-font-style: Italic;
+
+}
+
+.hiddenTable{
+    -fx-background-color: #a1a1a1;
+}

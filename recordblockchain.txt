@@ -1,0 +1,140 @@
+[
+  {
+    "currentHash": "0fb8784e9696e7f78c879615577ed46021a7586ac47d300132e4e747d55adf44",
+    "previoushash": "0",
+    "owner": "P0003",
+    "creator": "D0002",
+    "digitalSignature": "qG4zUf9DcDt+QBhlUzxuH+V4rEdz4KG3bU/TevBNOc5KZRxgEexMuqBsPkL8VUb5sq0lDJKZom9wb7UXtZAo3w\u003d\u003d",
+    "data": [
+      {
+        "val0": "uvrjmn6nh6obOjimYBLRq+ig3BLOiliroMVFSv7rTXqL7GKOxeTVYdBanbzVwC09feaTIGSyg5OSvR/CsZOB1L5Hjp8AzC+FCIiCaozGpXE0nRn4dmHKGle0MvlnBzWOixR6RzgjRr7N0AsrWy4LEg\u003d\u003d",
+        "val1": "_,__,_B",
+        "val2": "Pollen,",
+        "val3": "4eUglHqdfDnyJ8rp7l8s9mTrnnhLboQO5ZyOzbIdLQA\u003d",
+        "val4": "nqDnZgcIADp5iFD57AA/zg\u003d\u003d",
+        "val5": "Vital signs - Temperature and blood pressure normal\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\nEyes - Foggy, unattentive\n",
+        "val6": "Cholesterol - High cholestrol intake from daily habits\nArrhythmia - Weak heart pulse\n",
+        "val7": "Amoxicillin _split_3 per day_split_2021-07-22_split_Take before meals_,_",
+        "val8": "lwGKocSiDg0I5tEoNL+NpND55+EEPVAD0tH1+Jd7+TTSaxbBL6O5lnU6sLisLWGK",
+        "val9": "RDwKxN82BJM1FUirJzbqFXDiRnwET575aQ+7gzOCMqiWDYo0Xomq2v9Q5Hj2DZ0wlW8FVtvVCRcXlGdlUzuchAE7QnfYi1T/BQTPtmQdeJko2sihLZ1t+Dwmq1wsWbYj20KEOUSZ9h3lPddDqwpTPd1F5hFCpJdJ9yOppyd1CZ8\u003d",
+        "valueArray": [
+          "uvrjmn6nh6obOjimYBLRq+ig3BLOiliroMVFSv7rTXqL7GKOxeTVYdBanbzVwC09feaTIGSyg5OSvR/CsZOB1L5Hjp8AzC+FCIiCaozGpXE0nRn4dmHKGle0MvlnBzWOixR6RzgjRr7N0AsrWy4LEg\u003d\u003d",
+          "_,__,_B",
+          "Pollen,",
+          "4eUglHqdfDnyJ8rp7l8s9mTrnnhLboQO5ZyOzbIdLQA\u003d",
+          "nqDnZgcIADp5iFD57AA/zg\u003d\u003d",
+          "Vital signs - Temperature and blood pressure normal\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\nEyes - Foggy, unattentive\n",
+          "Cholesterol - High cholestrol intake from daily habits\nArrhythmia - Weak heart pulse\n",
+          "Amoxicillin _split_3 per day_split_2021-07-22_split_Take before meals_,_",
+          "lwGKocSiDg0I5tEoNL+NpND55+EEPVAD0tH1+Jd7+TTSaxbBL6O5lnU6sLisLWGK",
+          "RDwKxN82BJM1FUirJzbqFXDiRnwET575aQ+7gzOCMqiWDYo0Xomq2v9Q5Hj2DZ0wlW8FVtvVCRcXlGdlUzuchAE7QnfYi1T/BQTPtmQdeJko2sihLZ1t+Dwmq1wsWbYj20KEOUSZ9h3lPddDqwpTPd1F5hFCpJdJ9yOppyd1CZ8\u003d"
+        ],
+        "valueList": [
+          "uvrjmn6nh6obOjimYBLRq+ig3BLOiliroMVFSv7rTXqL7GKOxeTVYdBanbzVwC09feaTIGSyg5OSvR/CsZOB1L5Hjp8AzC+FCIiCaozGpXE0nRn4dmHKGle0MvlnBzWOixR6RzgjRr7N0AsrWy4LEg\u003d\u003d",
+          "_,__,_B",
+          "Pollen,",
+          "4eUglHqdfDnyJ8rp7l8s9mTrnnhLboQO5ZyOzbIdLQA\u003d",
+          "nqDnZgcIADp5iFD57AA/zg\u003d\u003d",
+          "Vital signs - Temperature and blood pressure normal\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\nEyes - Foggy, unattentive\n",
+          "Cholesterol - High cholestrol intake from daily habits\nArrhythmia - Weak heart pulse\n",
+          "Amoxicillin _split_3 per day_split_2021-07-22_split_Take before meals_,_",
+          "lwGKocSiDg0I5tEoNL+NpND55+EEPVAD0tH1+Jd7+TTSaxbBL6O5lnU6sLisLWGK",
+          "RDwKxN82BJM1FUirJzbqFXDiRnwET575aQ+7gzOCMqiWDYo0Xomq2v9Q5Hj2DZ0wlW8FVtvVCRcXlGdlUzuchAE7QnfYi1T/BQTPtmQdeJko2sihLZ1t+Dwmq1wsWbYj20KEOUSZ9h3lPddDqwpTPd1F5hFCpJdJ9yOppyd1CZ8\u003d"
+        ]
+      }
+    ],
+    "timestamp": 1626148919791
+  },
+  {
+    "currentHash": "2aba36d452b28662e318984529d20aba2267ca2fd369abfd377e1a94bba94e52",
+    "previoushash": "0fb8784e9696e7f78c879615577ed46021a7586ac47d300132e4e747d55adf44",
+    "owner": "P0001",
+    "creator": "D0001",
+    "digitalSignature": "YVU/bhVc0bFC+qphSmYihXWaCSkBUUivcCoYYKbaKjEAVZthhsMBMSAePe9bozFJ1znM51zvG8cORbYLK2hI/Q\u003d\u003d",
+    "data": [
+      {
+        "val0": "EldYKRpxDkKvBcOLaUWkwE+GpzvLen3w0KIqJlQacakXYSJw7Q4/PfLOJ8tICzy01zNQj2skfhKYegyzHxBKfhQBJFkOFxMpYxG6BAPRROcreZpK/PtgxtjNlur7tAeGUxp62JUukqabAHGj6KNINN6cBUJZILVfS76dw4gSaNY\u003d",
+        "val1": "Not set_,_Not set_,_A",
+        "val2": "dogs,",
+        "val3": "hqLfj1WomHYm18/yovgL5Q\u003d\u003d",
+        "val4": "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+        "val5": "",
+        "val6": "",
+        "val7": "",
+        "val8": "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+        "val9": "012b7PDomkqhqZp3ufrii3O5CGDhzmOYqjtRuyZ9u2CjZr1HZgIIy8X+ibtBBKgPt3phmJgHFy7gkDkyNe0F49exeguDmqIH0CvgxMlSiC27aoSXK63PgwpyIG41TcB1hUFQyuah+ip9BKXga5lWUL/BOOTE7pA9FrbwuRH+HrxGKwCawfeUhAnjPNRgKkvWfl4HbDsyJzgNbm/b48KaIw14lucqIHjoVQ4uNFnhfNQSBZkUc5kwO+k6OCRUmw0bPa044JbMZtMzPHQogM5Tbg\u003d\u003d",
+        "valueArray": [
+          "EldYKRpxDkKvBcOLaUWkwE+GpzvLen3w0KIqJlQacakXYSJw7Q4/PfLOJ8tICzy01zNQj2skfhKYegyzHxBKfhQBJFkOFxMpYxG6BAPRROcreZpK/PtgxtjNlur7tAeGUxp62JUukqabAHGj6KNINN6cBUJZILVfS76dw4gSaNY\u003d",
+          "Not set_,_Not set_,_A",
+          "dogs,",
+          "hqLfj1WomHYm18/yovgL5Q\u003d\u003d",
+          "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+          "",
+          "",
+          "",
+          "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+          "012b7PDomkqhqZp3ufrii3O5CGDhzmOYqjtRuyZ9u2CjZr1HZgIIy8X+ibtBBKgPt3phmJgHFy7gkDkyNe0F49exeguDmqIH0CvgxMlSiC27aoSXK63PgwpyIG41TcB1hUFQyuah+ip9BKXga5lWUL/BOOTE7pA9FrbwuRH+HrxGKwCawfeUhAnjPNRgKkvWfl4HbDsyJzgNbm/b48KaIw14lucqIHjoVQ4uNFnhfNQSBZkUc5kwO+k6OCRUmw0bPa044JbMZtMzPHQogM5Tbg\u003d\u003d"
+        ],
+        "valueList": [
+          "EldYKRpxDkKvBcOLaUWkwE+GpzvLen3w0KIqJlQacakXYSJw7Q4/PfLOJ8tICzy01zNQj2skfhKYegyzHxBKfhQBJFkOFxMpYxG6BAPRROcreZpK/PtgxtjNlur7tAeGUxp62JUukqabAHGj6KNINN6cBUJZILVfS76dw4gSaNY\u003d",
+          "Not set_,_Not set_,_A",
+          "dogs,",
+          "hqLfj1WomHYm18/yovgL5Q\u003d\u003d",
+          "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+          "",
+          "",
+          "",
+          "JowlMcmC2mbecy2Ov/oXuQ\u003d\u003d",
+          "012b7PDomkqhqZp3ufrii3O5CGDhzmOYqjtRuyZ9u2CjZr1HZgIIy8X+ibtBBKgPt3phmJgHFy7gkDkyNe0F49exeguDmqIH0CvgxMlSiC27aoSXK63PgwpyIG41TcB1hUFQyuah+ip9BKXga5lWUL/BOOTE7pA9FrbwuRH+HrxGKwCawfeUhAnjPNRgKkvWfl4HbDsyJzgNbm/b48KaIw14lucqIHjoVQ4uNFnhfNQSBZkUc5kwO+k6OCRUmw0bPa044JbMZtMzPHQogM5Tbg\u003d\u003d"
+        ]
+      }
+    ],
+    "timestamp": 1626254071229
+  },
+  {
+    "currentHash": "f2664a40ebf0d88cea8e0407bb4b440fff24afa5e9c68df3f262a86a0e66cb2b",
+    "previoushash": "2aba36d452b28662e318984529d20aba2267ca2fd369abfd377e1a94bba94e52",
+    "owner": "P0007",
+    "creator": "D0002",
+    "digitalSignature": "Aba+4HnlWyaeaICNdkzIjUi7dCZ5JFjLLIsfKksTrPP0sGWojxnxKu4BPodhuA4LaZ4IcegJ3aIrvw6x2WOvTQ\u003d\u003d",
+    "data": [
+      {
+        "val0": "tzJNHZTVElqELk7TmjWGNMAibifxR/O1Ri7m7gAQtZX6n8lA45ZYZBdhg0D4nQeEpDSKYwW5XawgBvPoKlAsuBQ0NHsBx1zz68BHedJTCHdIFEFNioiSnbM1RYlnhV+Tn1Dham6YCiBJ0mGG2Dg+bQ\u003d\u003d",
+        "val1": "Not set_,_Not set_,_A",
+        "val2": "Fur,",
+        "val3": "9kVnWZzwDBH1S1AHbFxExg\u003d\u003d",
+        "val4": "H7kx4uUytI/6WIxXugLjzg\u003d\u003d",
+        "val5": "Head - Normocephalic, atraumatic\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\n",
+        "val6": "Congestive Heart Failure - Notes\n",
+        "val7": "Prednisone_split_3 per day_split_2021-07-20_split_Eat before meals_,_",
+        "val8": "5AXF0jSC0ML/OkjCO7vgqQ\u003d\u003d",
+        "val9": "YiQz5Pj7wk+S/sL2EBzK8NpJVppbfqsN6ULJAa2IvmuLBHiAgANf8Tfe+vQq11092+YUXqiKlAz5Se3aHfSldYnm/f9/RoxhPGWV9QjNHBS5T+k4tEDzb05nTJQujRHzSATpDe4ZLlzuAEQVICQ7EcM4S6TASBWgukSDVCDSNLYOiGQn8Mr51CFtsdmpKc/LnEXRAxcn8Go0HTtz/JxIPoPCnQIv0JCC01wN03n7UyBU0IeYyz0W657CY+Kkaiqgy29iAy1hG+YgVFx61oOIQO3IKUZQmkVVsboOjrwSv8k\u003d",
+        "valueArray": [
+          "tzJNHZTVElqELk7TmjWGNMAibifxR/O1Ri7m7gAQtZX6n8lA45ZYZBdhg0D4nQeEpDSKYwW5XawgBvPoKlAsuBQ0NHsBx1zz68BHedJTCHdIFEFNioiSnbM1RYlnhV+Tn1Dham6YCiBJ0mGG2Dg+bQ\u003d\u003d",
+          "Not set_,_Not set_,_A",
+          "Fur,",
+          "9kVnWZzwDBH1S1AHbFxExg\u003d\u003d",
+          "H7kx4uUytI/6WIxXugLjzg\u003d\u003d",
+          "Head - Normocephalic, atraumatic\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\n",
+          "Congestive Heart Failure - Notes\n",
+          "Prednisone_split_3 per day_split_2021-07-20_split_Eat before meals_,_",
+          "5AXF0jSC0ML/OkjCO7vgqQ\u003d\u003d",
+          "YiQz5Pj7wk+S/sL2EBzK8NpJVppbfqsN6ULJAa2IvmuLBHiAgANf8Tfe+vQq11092+YUXqiKlAz5Se3aHfSldYnm/f9/RoxhPGWV9QjNHBS5T+k4tEDzb05nTJQujRHzSATpDe4ZLlzuAEQVICQ7EcM4S6TASBWgukSDVCDSNLYOiGQn8Mr51CFtsdmpKc/LnEXRAxcn8Go0HTtz/JxIPoPCnQIv0JCC01wN03n7UyBU0IeYyz0W657CY+Kkaiqgy29iAy1hG+YgVFx61oOIQO3IKUZQmkVVsboOjrwSv8k\u003d"
+        ],
+        "valueList": [
+          "tzJNHZTVElqELk7TmjWGNMAibifxR/O1Ri7m7gAQtZX6n8lA45ZYZBdhg0D4nQeEpDSKYwW5XawgBvPoKlAsuBQ0NHsBx1zz68BHedJTCHdIFEFNioiSnbM1RYlnhV+Tn1Dham6YCiBJ0mGG2Dg+bQ\u003d\u003d",
+          "Not set_,_Not set_,_A",
+          "Fur,",
+          "9kVnWZzwDBH1S1AHbFxExg\u003d\u003d",
+          "H7kx4uUytI/6WIxXugLjzg\u003d\u003d",
+          "Head - Normocephalic, atraumatic\nSkin - Texture, shape and distribution normal\nNails - Texture, shape and distribution normal\n",
+          "Congestive Heart Failure - Notes\n",
+          "Prednisone_split_3 per day_split_2021-07-20_split_Eat before meals_,_",
+          "5AXF0jSC0ML/OkjCO7vgqQ\u003d\u003d",
+          "YiQz5Pj7wk+S/sL2EBzK8NpJVppbfqsN6ULJAa2IvmuLBHiAgANf8Tfe+vQq11092+YUXqiKlAz5Se3aHfSldYnm/f9/RoxhPGWV9QjNHBS5T+k4tEDzb05nTJQujRHzSATpDe4ZLlzuAEQVICQ7EcM4S6TASBWgukSDVCDSNLYOiGQn8Mr51CFtsdmpKc/LnEXRAxcn8Go0HTtz/JxIPoPCnQIv0JCC01wN03n7UyBU0IeYyz0W657CY+Kkaiqgy29iAy1hG+YgVFx61oOIQO3IKUZQmkVVsboOjrwSv8k\u003d"
+        ]
+      }
+    ],
+    "timestamp": 1626263723779
+  }
+]

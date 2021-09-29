@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="608.0" prefWidth="962.0" style="-fx-background-color: #F0F1F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="608.0" prefWidth="239.0" style="-fx-background-color: #FFFFFF; -fx-border-style: hidden solid hidden solid; -fx-border-color: #707070;">
+         <children>
+            <ImageView fx:id="imgProfile" fitHeight="151.0" fitWidth="152.0" layoutX="44.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/user%20(3).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblName" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="193.0" prefHeight="52.0" prefWidth="206.0" text="Mr Ovuvuveuveu OnyetenyevueUghmbwem" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDOB" layoutX="38.0" layoutY="262.0" text="Date of birth">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGender" layoutX="38.0" layoutY="297.0" text="Gender">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblEmail" alignment="TOP_LEFT" layoutX="38.0" layoutY="542.0" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="162.0" text="Emailemailer@gmail.com" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPhone" layoutX="38.0" layoutY="507.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMainInsurance" layoutX="38.0" layoutY="437.0" prefHeight="26.0" prefWidth="162.0" text="Main insurance" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="472.0" text="Contact:">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblBloodType" layoutX="38.0" layoutY="332.0" text="Blood Type">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblHeight" layoutX="38.0" layoutY="367.0" text="Height">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblWeight" layoutX="38.0" layoutY="402.0" text="Weight">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="lstAllergies" layoutX="256.0" layoutY="92.0" prefHeight="165.0" prefWidth="226.0" style="-fx-border-color: #707070;" />
+      <Label layoutX="268.0" layoutY="57.0" text="Allergies">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="256.0" layoutY="54.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <ListView fx:id="lstOtherRemarks" layoutX="256.0" layoutY="344.0" prefHeight="165.0" prefWidth="226.0" style="-fx-border-color: #707070;" />
+      <Label layoutX="271.0" layoutY="307.0" text="Other remarks">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="259.0" layoutY="304.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <TableView fx:id="tblRecords" layoutX="507.0" layoutY="76.0" prefHeight="218.0" prefWidth="444.0">
+        <columns>
+          <TableColumn fx:id="colDate" editable="false" prefWidth="122.39993286132812" text="Date" />
+          <TableColumn fx:id="colReasonOfVisit" editable="false" prefWidth="306.0" sortable="false" text="Reason of visit" />
+        </columns>
+      </TableView>
+      <Label layoutX="519.0" layoutY="43.0" text="Past Records">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="507.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <TextField fx:id="txtSearch" layoutX="798.0" layoutY="42.0" promptText="Enter to search" />
+      <Label layoutX="518.0" layoutY="332.0" text="Ongoing medications">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ed9d19" height="31.0" layoutX="506.0" layoutY="329.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+      <TableView fx:id="tblOngoingMedications" layoutX="507.0" layoutY="373.0" prefHeight="190.0" prefWidth="444.0" tableMenuButtonVisible="true">
+         <columns>
+            <TableColumn fx:id="colMedicationName" editable="false" prefWidth="210.4000244140625" sortable="false" text="Medication Name" />
+            <TableColumn fx:id="colTakeUntil" editable="false" minWidth="0.0" prefWidth="95.20001220703125" sortable="false" text="Take Until" />
+            <TableColumn fx:id="colDose" prefWidth="121.0" text="Dose" />
+            <TableColumn fx:id="colDateAdded" prefWidth="95.0" text="Date Added" visible="false" />
+            <TableColumn fx:id="colAddedBy" text="Added by" visible="false" />
+            <TableColumn fx:id="colNotes" editable="false" minWidth="0.0" prefWidth="150.0" sortable="false" text="Notes" visible="false" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnBack" layoutX="907.0" layoutY="568.0" mnemonicParsing="false" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnAddNew" layoutX="807.0" layoutY="306.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Add New" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnViewRecord" layoutX="881.0" layoutY="306.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: black;" text="View" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnManagePatientPhysical" layoutX="260.0" layoutY="524.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="102.0" style="-fx-background-color: black;" text="Manage Patient Medical Info" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
